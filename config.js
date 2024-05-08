@@ -13,7 +13,7 @@ global.gurl = 'https://instagram.com' // add your username
 global.sudo = process.env.SUDO || "94761516805"
 global.devs = '94761516805';
 global.website = 'https://github.com/Sithuwa/SITHUWA-MD' //wa.me/+94000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/15b1dd8aeaa47888d75d7.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://graph.org/file/14c9e1c99f5f2b1ad693d.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
   author:  process.env.PACK_AUTHER ||  'SITHUWA BOT',
