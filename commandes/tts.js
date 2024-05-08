@@ -3,7 +3,7 @@ const {zokou} = require("../framework/zokou");
 
 
 zokou( {
-  nomCom : "dit",
+  nomCom : "tts2",
  categorie : "tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
@@ -26,7 +26,7 @@ console.log(url);
 ) ;
 
 zokou( {
-  nomCom : "itta",
+  nomCom : "tts1",
  categorie : "tts",
   reaction : "👄" },
       async(dest,zk, commandeOptions)=> {
@@ -49,9 +49,9 @@ console.log(url);
 ) ;
 
 zokou( {
-  nomCom : "say",
+  nomCom : "tts",
  categorie : "tts",
-  reaction : "👄" },
+  reaction : "🌝" },
       async(dest,zk, commandeOptions)=> {
  
 const {ms,arg,repondre} = commandeOptions;
