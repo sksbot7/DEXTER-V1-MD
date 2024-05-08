@@ -24,14 +24,14 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
         coms[com.categorie].push(com.nomCom);
     });
 
-    moment.tz.setDefault('Africa/Nairobi');
+    moment.tz.setDefault('Asia,Kolkata');
 
 // Create a date and time in EAT
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧𝐃𝐄𝐗𝐓𝐄𝐑-𝐌𝐃✧────◆
+╭────✧ `@_sks_bot_` ✧────◆
 │♨ *Préfix* : ${s.PREFIXE}
 │♨ *User* : ${s.OWNER_NAME}
 │♨ *Mode* : ${mode}
@@ -40,18 +40,18 @@ const date = moment().format('DD/MM/YYYY');
 │♨ *Time* : ${temps} 
 │♨ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │♨ *Platform* : ${os.platform()}
-│♨ *Developer* : 𝐃𝐄𝐗𝐓𝐄𝐑
+│♨ *Developer* : SY4M
 │♨ *Version* : 𝐯7.5.25
 ╰─────✧The-GOAT✧─────◆ \n\n`;
 
   let menuMsg=`  
 
-*DEXTER-MD COMMANDS :*
+*BOT COMMANDS :*
 ◇                             ◇
 `;
 
     for (const cat in coms) {
-        menuMsg += `*╭────☢️* *${cat}* *☢️⊷*`;
+        menuMsg += `*╭────😌* *${cat}* *😌⊷*`;
         for (const cmd of coms[cat]) {
             menuMsg += `
  *|♦️* ${cmd}`;
@@ -64,7 +64,7 @@ const date = moment().format('DD/MM/YYYY');
 ◇            ◇
 *————— ★ —————*
 
-  *📌DEXTER©🐐²0²⁴*                                         
+  *📌IG|_sks_bot_©*                                         
 *╰═════════════⊷*
 `;
 
